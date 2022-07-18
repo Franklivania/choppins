@@ -1,3 +1,5 @@
+alert("tap on the cards if you're in mobile mode")
+
 function toggleMobileMenu(menu) {
     menu.classList.toggle('open');
 }
