@@ -1,0 +1,158 @@
+@media only screen and (max-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        background-color: var(--color-product);
+        height: 80vh;
+        padding: 0 20px;
+        width: calc(100vw -50px);
+        background-image: linear-gradient(90deg, rgba(255,165,0,0.5158438375350141) 4%, rgba(255,184,0,0.5074404761904762) 45%, rgba(255,165,0,0.5214460784313726) 65%),
+        url(../image/dishes\ main.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        
+    }
+    header nav{
+        display: none;
+    }
+    #main{
+        float: left;
+        width: 10rem;
+        position: relative;
+    }
+    #sub{
+        width: 20rem;
+        background-color: #ffa60000;
+        float: left;
+        margin: 2rem 0 0 -12rem;
+        padding: 1rem;
+    }
+    #hamburger-icon{
+        margin: 1rem 0 0 13rem;
+        display: block;
+        z-index: 1;
+        float: right;
+        position: static;
+    }
+    #hamburger-icon ul{
+        margin-top: 2rem;
+        height: 50vh;
+        position: absolute;
+        background-color: var(--color-product);
+        z-index: 1;
+    }
+    .text-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: var(--color-product);
+        height: 5rem;
+    }
+    .jingle{
+        margin: 22rem 0 0 -35rem;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .text1{
+        display: inline-block;
+        margin: 2rem 0 0 -15rem;
+    }
+    .text2{
+        display: flex;
+        margin: 0 0 0 -11rem;
+        align-items: center;
+        justify-items: baseline;
+    }
+    .btn:link, .btn:visited {
+        text-decoration: none;
+        padding: 1rem 0 1rem 3.5rem;
+        border-radius: 10rem;
+        position: absolute;
+        font-size: 1.7rem; 
+        top: 20rem;
+        left: -34rem;
+        z-index: inherit;
+        width: 18rem;
+        margin: 0 -2rem 0 0;
+        color: var(--color-secondary);
+    }
+    .btn:hover {
+        box-shadow: 0 1rem 2rem var(--color-primary,0.2); 
+    }
+    #icon{
+        width: 3rem;
+        cursor: pointer;
+        position: absolute;
+        justify-items: center;
+        margin: 0 0 0 30rem;
+    }
+    .section-title{
+        margin: 3.8rem 0 0 0;
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    .offers{
+        margin: 4rem 0 0 14rem;
+        position: absolute;
+    }
+    .break{
+        height: 25rem;
+        width: 17rem;
+        position: absolute;
+    }
+    .brunch{
+        height: 25rem;
+        width: 17rem;
+        position: absolute;
+        margin: 0 0 0 18rem;
+    }
+    .lunch{
+        height: 25rem;
+        width: 17rem;
+        position: relative;
+        margin: 27rem 0 0 0;
+    }
+    .dinner{
+        height: 25rem;
+        width: 17rem;
+        position: relative;
+        margin: 27rem 0 0 1rem;
+    }
+    blockquote{
+        margin: 60rem 0 0 0;
+        background-color: var(--color-quote);
+    }
+    blockquote q{
+        font-size: 1.2rem;
+    }
+    blockquote cite{
+        margin: 3rem 3rem 0 0;
+        text-align: center;
+        font-weight: 400;
+    }
+    hr{
+        display: none;
+    }
+    footer{
+        height: 30vh;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    footer ul i{
+        margin: 2rem 0 0 0;
+    }
+    footer #foot-text-one{
+        margin: 6rem 0 0 0;
+    }
+}
