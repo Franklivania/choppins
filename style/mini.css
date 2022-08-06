@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     *{
         margin: 0;
         padding: 0;
@@ -18,6 +18,7 @@
     }
     header nav{
         display: none;
+        margin: -2rem 0 0 0;
     }
     #main{
         float: left;
@@ -94,7 +95,7 @@
         cursor: pointer;
         position: absolute;
         justify-items: center;
-        margin: 0 0 0 30rem;
+        margin: 0 0 0 37rem;
     }
     .section-title{
         margin: 3.8rem 0 0 0;

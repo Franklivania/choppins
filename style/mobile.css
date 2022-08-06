@@ -7,6 +7,10 @@
         padding: 0;
         /* display: flex; */
     }
+    header nav{
+        display: none;
+        margin: -2rem 0 0 0;
+    }
     #hamburger-icon{
         margin: 1rem 0 0 0;
     }
