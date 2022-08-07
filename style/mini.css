@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1022px) {
     *{
         margin: 0;
         padding: 0;
@@ -28,7 +28,7 @@
     #sub{
         width: 20rem;
         background-color: #ffa60000;
-        float: left;
+        /* float: left; */
         margin: 2rem 0 0 -12rem;
         padding: 1rem;
     }
@@ -37,7 +37,7 @@
         display: block;
         z-index: 1;
         float: right;
-        position: static;
+        /* position: static; */
     }
     #hamburger-icon ul{
         margin-top: 2rem;
@@ -95,7 +95,7 @@
         cursor: pointer;
         position: absolute;
         justify-items: center;
-        margin: 0 0 0 37rem;
+        margin: 0 0 0 27rem;
     }
     .section-title{
         margin: 3.8rem 0 0 0;
@@ -103,7 +103,7 @@
         padding: 2rem;
     }
     .offers{
-        margin: 4rem 0 0 14rem;
+        margin: 4rem 0 0 10rem;
         position: absolute;
     }
     .break{

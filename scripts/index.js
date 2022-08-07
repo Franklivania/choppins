@@ -1,4 +1,4 @@
-alert("tap on the cards if you're in mobile mode, and tap the moon to see the magic ")
+// alert("tap on the cards if you're in mobile mode, and tap the moon to see the magic ")
 
 function toggleMobileMenu(menu) {
     menu.classList.toggle('open');

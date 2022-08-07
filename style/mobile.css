@@ -1,21 +1,35 @@
 @media screen and (max-width: 600px) {
-    #sub{
-        width: 15rem;
-        background-color: #ffa60000;
-        float: left;
-        margin: 0 0 0 0;
-        padding: 0;
-        /* display: flex; */
-    }
     header nav{
         display: none;
         margin: -2rem 0 0 0;
     }
+    #main{
+        width: 10rem;
+        float: left;
+    }
+    #sub{
+        width: 15rem;
+        background-color: #ffa60000;
+        margin: 3rem 0 0 -10rem;
+        padding: 0;
+        display: flex;
+    }
     #hamburger-icon{
         margin: 1rem 0 0 0;
+        display: block;
+        z-index: 1;
+        /* float: right; */
+        position: static;
+    }
+    #hamburger-icon ul{
+        margin-top: 2rem;
+        height: 50vh;
+        position: absolute;
+        background-color: var(--color-product);
+        z-index: 1;
     }
     .jingle{
-        margin: 22rem -6rem 0 -35rem;
+        margin: 22rem 0 0 -30rem;
         align-items: center;
         justify-content: space-around;
         position: relative;
@@ -31,7 +45,7 @@
     }
     .text2{
         display: flex;
-        margin: 0.5rem 0 0 13rem;
+        margin: 0.5rem 0 0 15rem;
         align-items: center;
         justify-items: baseline;
     }
@@ -42,10 +56,10 @@
         position: absolute;
         font-size: 1.3rem; 
         top: 20rem;
-        /* right: -4rem; */
+        right: 4rem;
         z-index: inherit;
         width: 12rem;
-        margin: 0 3rem 0 18.4rem;
+        margin: 15rem 3rem 0 18.4rem;
     }
     #icon{
         width: 3rem;
@@ -59,6 +73,7 @@
         position: absolute;
     }
     .section-title{
+        margin: 5rem 0 0 0;
         font-size: 1.5rem;
         padding: 2rem;
     }
@@ -85,10 +100,16 @@
         position: relative;
         margin: 69rem 0 0 0;
     }
+    hr{
+        display: none;
+    }
     blockquote{
         margin: 95rem 0 0 0;
         background-color: var(--color-quote);
         font-size: 0.2rem;
+    }
+    blockquote q{
+        font-size: 1rem;
     }
     footer{
         height: 25vh;

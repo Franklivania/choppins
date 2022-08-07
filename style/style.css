@@ -58,7 +58,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: -18rem;
+    margin: -15rem 0 0 0;
 }
 ul a{
     color: var(--color-secondary);
@@ -131,33 +131,33 @@ ul li:hover{
     position: absolute;
     font-size: 1.5rem; 
     top: 25rem;
-    right: 33rem;
-    margin: 5rem 0 0 0;
+    right: 27rem;
+    margin: 3rem 0 0 0;
 }
-  
+
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 1rem 2rem var(--color-secondary,0.2); 
 }
 .btn:hover::after {
-      transform: scaleX(1.7);
-      opacity: 0; 
+    transform: scaleX(1.7);
+    opacity: 0; 
 }
-  
+
 .btn:active {
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem var(--color-primary,0.2); 
 }
-  
+
 .btn--white {
     background-color: var(--color-product);
     color: var(--color-secondary);
     margin-top: 2rem; 
 }
 .btn--white::after {
-      background-color: var(--color-primary); 
+    background-color: var(--color-primary); 
 }
-  
+
 .btn::after {
     content: "";
     display: inline-block;
@@ -170,7 +170,7 @@ ul li:hover{
     z-index: -1;
     transition: all .4s; 
 }
-  
+
 .btn--animated {
     animation: moveInButton .5s ease-in-out .75s;
     animation-fill-mode: backwards; 
@@ -186,7 +186,7 @@ ul li:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .text1{
     display: inline-block;
@@ -194,7 +194,7 @@ ul li:hover{
 }
 .text2{
     display: flex;
-    margin: 0 0 0 15rem;
+    margin: 0 0 0 17rem;
     align-items: center;
     justify-items: baseline;
 }
@@ -348,7 +348,7 @@ blockquote cite{
 hr{
     border: 0.1rem var(--color-secondary) solid;
     width: 40rem;
-    margin: 0 0 0 23rem;
+    margin: 0 0 0 20rem;
 }
 footer{
     height: 20vh;
@@ -382,4 +382,4 @@ footer #foot-text-two{
     color: var(--color-secondary);
     font-weight: bold;
     font-size: 1.5rem;
-}
+}  
